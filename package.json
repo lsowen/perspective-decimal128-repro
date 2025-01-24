@@ -1,0 +1,27 @@
+{
+  "name": "perspective-decimal128-repro",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "vite"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  },
+  "dependencies": {
+    "@finos/perspective": "^3.2.1",
+    "@finos/perspective-viewer": "^3.2.1",
+    "@finos/perspective-viewer-d3fc": "^3.2.1",
+    "@finos/perspective-viewer-datagrid": "^3.2.1",
+    "vite-plugin-top-level-await": "^1.4.4",
+    "vite-plugin-wasm": "^3.4.1"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
+  }
+}
